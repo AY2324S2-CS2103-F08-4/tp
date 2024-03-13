@@ -8,7 +8,8 @@
         "about-us": "About Us",
         "project-team": "Project team",
         "joel-goh": "Joel Goh",
-        "yap-zong-xin": "Yap Zong Xin"
+        "yap-zong-xin": "Yap Zong Xin",
+        "aman-zainal": "Aman Zainal"
       },
       "headingKeywords": {}
     },
@@ -129,6 +130,14 @@
       "title": "",
       "headings": {
         "addressbook-level-3": "AddressBook Level-3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/amanzainal.md",
+      "title": "Aman Zainal's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
       "headingKeywords": {}
     },
