@@ -230,7 +230,7 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the System is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TutorTrack")]),_v(" and the Actor is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tutor")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC01 - View all students."),_c('br'),_v(" "),_c('strong',[_v("Preconditions:")]),_v(" Connection is stable.")])}
+with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC01 - View all students."),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
@@ -245,7 +245,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The list is empty.\n"),_c('ul',[_c('li',[_c('p',[_v("2a1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC02 - Add a student."),_c('br'),_v(" "),_c('strong',[_v("Preconditions:")]),_v(" Connection is stable.")])}
+with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC02 - Add a student."),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
@@ -260,7 +260,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. Required fields are left empty.\n"),_c('ul',[_c('li',[_c('p',[_v("2a1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("2b. The given phone number is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("2b1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("2c. The given email is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("2c1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("2d. The given grades are invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("2d1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("2e. The student exists in the database already.\n"),_c('ul',[_c('li',[_c('p',[_v("2e1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC03 - Update a student."),_c('br'),_v(" "),_c('strong',[_v("Preconditions:")]),_v(" Connection is stable.")])}
+with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC03 - Update a student."),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
@@ -275,7 +275,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The list is empty.\n"),_c('ul',[_c('li',[_c('p',[_v("2a1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("3a. The given phone number is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("3a1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("3b. The given email is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("3b1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("3c. The given grades are invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("3c1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("3d. The given index is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("3d1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC04 - Delete a student."),_c('br'),_v(" "),_c('strong',[_v("Preconditions:")]),_v(" Connection is stable.")])}
+with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC04 - Delete a student."),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
@@ -290,7 +290,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions:")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The list is empty.\n"),_c('ul',[_c('li',[_c('p',[_v("2a1. System shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_v("3a. The given index is invalid.\n"),_c('ul',[_c('li',[_c('p',[_v("3a1. System shows an error message.")])]),_v(" "),_c('li',[_c('p',[_v("3a2. System requests for the correct index.")])]),_v(" "),_c('li',[_c('p',[_v("3a3. User enters new index.")]),_v(" "),_c('p',[_v("Steps 3a2-3a3 are repeated until the data entered are correct.")]),_v(" "),_c('p',[_v("Use case resumes from step 4.")])])])]),_v(" "),_c('li',[_v("4a. User cancels deletion.\n"),_c('ul',[_c('li',[_v("4a1. System displays confirmation message.")])])]),_v(" "),_c('li',[_v("4b. User enters invalid syntax for confirmation.\n"),_c('ul',[_c('li',[_c('p',[_v("4a1. System displays error message.")])]),_v(" "),_c('li',[_c('p',[_v("4a2. System requests for the correct data.")])]),_v(" "),_c('li',[_c('p',[_v("4a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 4a2-4a3 are repeated until the data entered is correct.")]),_v(" "),_c('p',[_v("Use case continues from step 5.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC05 - Find a student."),_c('br'),_v(" "),_c('strong',[_v("Preconditions:")]),_v(" Connection is stable.")])}
+with(this){return _c('p',[_c('strong',[_v("Use case:")]),_v(" UC05 - Find a student."),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS:")])])}
@@ -338,6 +338,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 15 Mar 2024, 14:20:52 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 15 Mar 2024, 14:29:30 GMT+8]")])])])}
 }];
   
