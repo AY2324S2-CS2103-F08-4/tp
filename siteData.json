@@ -36,6 +36,7 @@
     },
     {
       "src": "DeveloperGuide.md",
+      "title": "Developer guide",
       "headings": {
         "tutortrack-developer-guide": "TutorTrack Developer Guide",
         "acknowledgements": "Acknowledgements",
