@@ -36,7 +36,7 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer guide",
+      "title": "Developer Guide",
       "headings": {
         "tutortrack-developer-guide": "TutorTrack Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -51,6 +51,7 @@
         "implementation": "Implementation",
         "grade-parameter": "Grade parameter",
         "timeslot-parameter": "Timeslot parameter",
+        "sort-feature": "Sort Feature",
         "filter-feature": "Filter feature",
         "improved-edit-functionality": "Improved Edit Functionality",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
@@ -63,7 +64,7 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
+        "deleting-a-student": "Deleting a Student",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
