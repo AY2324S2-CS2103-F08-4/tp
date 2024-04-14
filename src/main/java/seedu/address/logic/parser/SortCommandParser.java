@@ -23,7 +23,7 @@ public class SortCommandParser implements Parser<SortCommand> {
                     String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortCommand.MESSAGE_USAGE));
         }
 
-        boolean isReverse = trimmedArgs.endsWith("/r");
+        boolean isReverse = trimmedArgs.contains("/r");
         // Remove the reverse flag from arguments if present and extract the test name.
         String testName = isReverse ? trimmedArgs.substring(0, trimmedArgs.length() - 2).trim() : trimmedArgs;
 
@@ -32,6 +32,8 @@ public class SortCommandParser implements Parser<SortCommand> {
             throw new ParseException(
                     String.format(MESSAGE_INVALID_COMMAND_FORMAT, SortCommand.MESSAGE_USAGE));
         }
+        System.out.println(testName);
+        System.out.println(isReverse);
         return new SortCommand(new TestNameEqualsKeywordPredicate(testName), isReverse);
     }
 }

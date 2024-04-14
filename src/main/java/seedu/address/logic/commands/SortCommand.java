@@ -29,6 +29,8 @@ public class SortCommand extends Command {
     private final TestNameEqualsKeywordPredicate predicate;
     private final boolean isReverse;
 
+    private final Comparator<Student> gradeComparator;
+
     /**
      * Sorts and lists all students in the address book by a specified test's grade.
      * This command allows sorting in either increasing (default) or decreasing order based on the
@@ -46,15 +48,16 @@ public class SortCommand extends Command {
     public SortCommand(TestNameEqualsKeywordPredicate predicate, boolean isReverse) {
         this.predicate = predicate;
         this.isReverse = isReverse;
+        this.gradeComparator = null;
     }
 
     @Override
     public CommandResult execute(Model model) {
         requireNonNull(model);
         Comparator<Student> gradeComparator = (student1, student2) -> {
-            String grade1 = Optional.ofNullable(student1.getGradeForTest(predicate.keyword)).orElse("0");
-            String grade2 = Optional.ofNullable(student2.getGradeForTest(predicate.keyword)).orElse("0");
-            return grade1.compareTo(grade2);
+            int grade1 = student1.getGradeForTest(predicate.keyword);
+            int grade2 = student2.getGradeForTest(predicate.keyword);
+            return Integer.compare(grade1, grade2);
         };
 
         if (isReverse) {

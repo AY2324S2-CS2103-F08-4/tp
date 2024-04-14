@@ -33,7 +33,7 @@ public class TestNameEqualsKeywordPredicate implements Predicate<Student> {
 
         TestNameEqualsKeywordPredicate gradesContainsKeywordsPredicate =
                 (TestNameEqualsKeywordPredicate) other;
-        return keyword.equals(gradesContainsKeywordsPredicate.keyword);
+        return keyword.equalsIgnoreCase(gradesContainsKeywordsPredicate.keyword);
     }
 
     @Override

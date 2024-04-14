@@ -6,7 +6,15 @@
 
 # TutorTrack User Guide
 
-TutorTrack is a **desktop app for managing contacts, optimized for use via a  Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, TutorTrack can get your contact management tasks done faster than traditional GUI apps.
+## Introduction
+
+Welcome, Tutors! Thank you for choosing TutorTrack! Managing your students' contacts has never been easier with our desktop app 
+that is optimised for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). 
+
+
+TutorTrack simplifies the consolidation and retrieval of student information, freeing you to concentrate on what you do 
+best: teaching. This User Guide provides comprehensive details to help you utilise TutorTrack to its full potential, 
+ensuring a smooth and efficient experience. Enjoy a hassle-free administration and focus more on your educational goals!
 
 <!-- * Table of Contents -->
 <page-nav-print />

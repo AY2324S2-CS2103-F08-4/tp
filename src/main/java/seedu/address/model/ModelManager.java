@@ -138,8 +138,8 @@ public class ModelManager implements Model {
     public void sortFilteredStudentList(Comparator<Student> comparator, Predicate<Student> predicate) {
         requireNonNull(comparator);
         requireNonNull(predicate);
-        filteredStudents.setPredicate(predicate);
         sortedStudents.setComparator(comparator);
+        filteredStudents.setPredicate(predicate);
     }
 
     @Override
