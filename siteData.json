@@ -111,6 +111,7 @@
       "headings": {
         "tutortrack-user-guide": "TutorTrack User Guide",
         "quick-start": "Quick start",
+        "user-interface": "User Interface",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-student-add": "Adding a student: add",
@@ -148,7 +149,7 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/joelgoh.md",
+      "src": "team/joelgoh1.md",
       "title": "Joel Goh's Project Portfolio Page",
       "headings": {
         "project-tutor-track": "Project: Tutor Track"
