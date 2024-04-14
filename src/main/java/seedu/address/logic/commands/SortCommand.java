@@ -3,7 +3,6 @@ package seedu.address.logic.commands;
 import static java.util.Objects.requireNonNull;
 
 import java.util.Comparator;
-import java.util.Optional;
 
 import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.logic.Messages;
@@ -29,7 +28,6 @@ public class SortCommand extends Command {
     private final TestNameEqualsKeywordPredicate predicate;
     private final boolean isReverse;
 
-    private final Comparator<Student> gradeComparator;
 
     /**
      * Sorts and lists all students in the address book by a specified test's grade.
@@ -48,7 +46,6 @@ public class SortCommand extends Command {
     public SortCommand(TestNameEqualsKeywordPredicate predicate, boolean isReverse) {
         this.predicate = predicate;
         this.isReverse = isReverse;
-        this.gradeComparator = null;
     }
 
     @Override
