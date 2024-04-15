@@ -53,7 +53,7 @@
         "timeslot-parameter": "Timeslot parameter",
         "sort-feature": "Sort Feature",
         "filter-feature": "Filter feature",
-        "improved-edit-functionality": "Improved Edit Functionality",
+        "improvised-edit-feature": "Improvised Edit Feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
@@ -159,7 +159,9 @@
     {
       "src": "team/yap-zong-xin.md",
       "title": "Zong Xin's Project Portfolio Page",
-      "headings": {},
+      "headings": {
+        "project-tutor-track": "Project: Tutor Track"
+      },
       "headingKeywords": {}
     },
     {
